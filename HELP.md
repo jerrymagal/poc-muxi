@@ -26,11 +26,11 @@ The following guides illustrate how to use some features concretely:
  
 ### Consultar Terminal
 
-  * GET -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal/44332511)
+  * GET -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal/{logic})
   
 ### Atualizar Terminal
 
-  * PUT -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal)
+  * PUT -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal/{logic})
   * Body -> {
     "logic": 44332511,
     "serial": "22569",
