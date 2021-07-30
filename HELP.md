@@ -18,3 +18,28 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
+### Criar Terminal
+
+ * Content-Type -> text/html
+ * POST -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal)
+ * Body -> 44332511;123;PWWIN;7;F04A2E4088B;4;8.00b3;0;16777216;PWWIN
+ 
+### Consultar Terminal
+
+  * GET -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal/44332511)
+  
+### Atualizar Terminal
+
+  * PUT -> (https://poc-muxi.herokuapp.com/muxi/api/v1/terminal)
+  * Body -> {
+    "logic": 44332511,
+    "serial": "22569",
+    "model": "PWWIN",
+    "sam": 7,
+    "ptid": "F04A2E4088B",
+    "plat": 4,
+    "version": "8.00b3",
+    "mxr": 0,
+    "mxf": 16777216,
+    "verfm": "PWWIN"
+}
